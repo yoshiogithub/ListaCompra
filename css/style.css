@@ -1,0 +1,149 @@
+body{
+	background-image: url(../img/fondoVegetal.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.btn-inicio{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: inset 0px 20px 25px black;
+}
+.btn-inicio:hover{
+	box-shadow: inset 0px 20px 30px black;
+}
+h1{
+	text-align: center;
+	color: wheat;
+	font-size: 50px;
+	margin-top: 100px;
+	text-shadow: 0px 7px 5px black;
+}
+h1:hover{
+	color: rgb(255, 217, 0);
+	margin-top: 100px;
+	text-shadow: 0px 5px 8px black;
+}
+button {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	background-color: red;
+	border-radius: 5px;
+	box-shadow: 0px 3px 8px black;
+}
+button:hover {
+	box-shadow: 0px 2px 8px black;
+}
+hr{
+	margin-bottom: 30px;
+}
+body form label{
+	margin-top: 40px;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 7px 5px black;
+}
+a:hover{
+	text-decoration: none;
+	color: yellow;
+	text-shadow: 0px 5px 5px black;
+}
+table{
+	background-color: grey;
+	line-height: 20px;
+	box-shadow: 0px 2px 5px black;
+	box-shadow:inset 2px 2px 6px black;
+}
+td{
+	text-align: center;
+	box-shadow: 0px 4px 5px black;
+	color :yellow;
+	text-shadow: 0px 7px 5px black;
+}
+td:hover{
+	box-shadow: 0px 3px 5px black;
+	box-shadow:inset 2px 2px 6px black;
+	color :whitesmoke;
+	text-shadow: 0px 4px 5px black;
+}
+td strong{
+	color :yellowgreen;
+	text-shadow: 0px 5px 5px black;
+}
+td strong:hover{
+	color :whitesmoke;
+	text-shadow: 0px 3px 5px black;
+}
+th{
+	height: 35px;
+	font-size: 10px;
+	color: rgba(255, 1, 1, 0.74);
+	box-shadow: 0px 0px 10px black;
+}
+th:hover{
+	color: yellow;
+	box-shadow: 0px 2px 5px black;
+	box-shadow:inset 2px 2px 6px black;
+}
+thead{
+	text-shadow: 0px 7px 5px black;
+	color:white;
+}
+body label{
+	color: rgb(33, 253, 4);
+	font-size: 24px;
+	font-weight: 600;
+	text-shadow: 0px 2px 2px black;
+}
+body label:hover{
+	text-shadow: 0px 3px 6px black;
+}
+button.salir{
+	width: 75px;
+	height: 75px;
+	border: solid 2px lightgrey;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: orange;
+	border-radius: 20%;
+	box-shadow:inset 1px 6px 20px black;
+}
+button.salir:hover {
+	box-shadow:inset 1px 6px 15px black;
+	decoration:none;
+}
+.btn-productos{
+    color: yellow;
+    font-weight: 700;
+    background-color: green;
+    height:50px;
+    text-shadow: 0px 7px 5px black;
+    border-radius: 50px;
+}
+
+.btn-productos:hover{
+    color: black;
+    background-color: yellow;
+	text-shadow: 0px 5px 5px black;
+	box-shadow: inset 0px 10px 20px black;
+}
+
+.sub-titulos{
+    color: whitesmoke;
+}
+.a-articulos{
+	color:white;
+
+}
+.a-articulos:hover{
+	color:black;
+
+}
